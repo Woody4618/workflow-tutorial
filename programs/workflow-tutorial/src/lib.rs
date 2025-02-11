@@ -7,7 +7,7 @@ pub mod workflow_tutorial {
     use super::*;
 
     pub fn initialize(ctx: Context<Initialize>) -> Result<()> {
-        msg!("Greetings from version 2: {:?}", ctx.program_id);
+        msg!("Greetings from version 3: {:?}", ctx.program_id);
         Ok(())
     }
 }
