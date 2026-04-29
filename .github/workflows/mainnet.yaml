@@ -11,7 +11,7 @@ on:
 
 jobs:
   build:
-    uses: solana-developers/github-workflows/.github/workflows/reusable-build.yaml@v0.3.2
+    uses: solana-developers/github-workflows/.github/workflows/reusable-build.yaml@v0.3.3
     with:
       program: "workflow_tutorial"
       program-id: "wocur7QRRMdzPZN52688gBa5iJD4mLkNWSxN5xGGRjY"
