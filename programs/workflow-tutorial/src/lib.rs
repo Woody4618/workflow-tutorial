@@ -10,6 +10,11 @@ pub mod workflow_tutorial {
         msg!("Greetings from version 5: {:?}", ctx.program_id);
         Ok(())
     }
+
+    pub fn initialize2(ctx: Context<Initialize>) -> Result<()> {
+        msg!("Greetings from version 5: {:?}", ctx.program_id);
+        Ok(())
+    }
 }
 
 #[derive(Accounts)]
