@@ -11,14 +11,18 @@ on:
 
 jobs:
   build:
-    uses: solana-developers/github-workflows/.github/workflows/reusable-build.yaml@v0.2.3
+    uses: solana-developers/github-workflows/.github/workflows/reusable-build.yaml@v0.3.0
     with:
       program: "workflow_tutorial"
+      program-id: "wocur7QRRMdzPZN52688gBa5iJD4mLkNWSxN5xGGRjY"
       network: "mainnet"
       deploy: true
       upload_idl: true
       verify: true
       use-squads: true
+      use-program-metadata-idl: true
+      override-solana-version: "3.1.10"
+      override-anchor-version: "1.0.1"
       priority-fee: ${{ github.event.inputs.priority_fee }}
 
     secrets:

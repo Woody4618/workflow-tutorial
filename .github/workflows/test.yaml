@@ -14,10 +14,10 @@ on:
       program:
         description: "Program to test"
         required: true
-        default: "transaction_example"
+        default: "workflow_tutorial"
 
 jobs:
   test:
-    uses: solana-developers/github-workflows/.github/workflows/test.yaml@v0.2.3
+    uses: solana-developers/github-workflows/.github/workflows/test.yaml@v0.3.0
     with:
       program: ${{ 'workflow_tutorial' }}
