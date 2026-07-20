@@ -7,9 +7,6 @@ skip-lint = false
 [programs.localnet]
 workflow_tutorial = "wocur7QRRMdzPZN52688gBa5iJD4mLkNWSxN5xGGRjY"
 
-[registry]
-url = "https://api.apr.dev"
-
 [provider]
 cluster = "Localnet"
 wallet = "~/.config/solana/id.json"
